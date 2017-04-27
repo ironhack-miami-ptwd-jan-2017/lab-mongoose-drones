@@ -5,7 +5,23 @@
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
-    <h1><%= title %></h1>
+    <header>
+      <h1><%= title %></h1>
+
+      <nav>
+        <ul>
+          <li> <a href="/"> Home </a> </li>
+          <li> <a href="/drones"> Drones </a> </li>
+          <li> <a href="/drones/new"> Add a Drone </a> </li>
+        </ul>
+      </nav>
+    </header>
+
     <%- body %>
+
+    <footer>
+      Made with &hearts; at Ironhack.
+      Copyright 2017 and stuff.
+    </footer>
   </body>
 </html>
